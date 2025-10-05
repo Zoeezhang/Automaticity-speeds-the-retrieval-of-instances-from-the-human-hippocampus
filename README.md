@@ -14,7 +14,7 @@ General notes:
 •	BehaviorData: Contains behavioral data from the experiment.
 •	RawData: Includes data used for SVM and ripple analyses, which contains folder ‘PowData’ and ‘RippleData’.
 •	PowData: Contains theta band (4–8 Hz) activity recorded across electrode contacts in the hippocampus, middle-temporal gyrus, and prefrontal cortex for each participant.
-•	RippleData: Includes raw iEEG signals bandpass-filtered in the 70–180 Hz range across three brain regions for each participant.
+•	RippleData: Includes raw iEEG signals bandpass-filtered in the 70–180 Hz range across hippocampus for each participant, other data of two brain areas (PFC and MTG) are not included due to huge size.
 •	Fig1 – Fig4: Contain analysis results corresponding to each figure in the manuscript.
 4) Note on Experiment 2
    Due to file size limitations, the data for Experiment 2 are not included in this repository. Please contact me directly if you require access to this portion of the data.
