@@ -4,17 +4,21 @@ Data files (.mat) and associated scripts (.m) are divided into folders according
 All code is written in Matlab. 
 
 General notes:
-1)	Before running the analysis scripts, make sure you set the correct paths where the data file was extracted.
+1)	Before running the analysis scripts, make sure you set the correct paths where the data file was extracted. All analyses were implemented in MATLAB.
 2)	To run the code, the following open-source Matlab toolboxes are required:
 •	Psychtoolbox (http://www.psychtoolbox.org), version: " Psychtoolbox 3". 
 	D. H. Brainard, S. Vision, The psychophysics toolbox. Spat Vis 10, 433–436 (1997).
 •	EEGLAB (https://sccn.ucsd.edu/eeglab/download.php), version: "eeglab2019". 
 	A. Delorme, S. Makeig, EEGLAB: An open source toolbox for analysis of single-trial EEG dynamics including independent component analysis. J. Neurosci. Methods. 134, 9-21 (2004).
+3)  The dataset includes raw and analyzed data from Experiment 1, structured as follows:
+•	BehaviorData: Contains behavioral data from the experiment.
+•	RawData: Includes data used for SVM and ripple analyses, which contains folder ‘PowData’ and ‘RippleData’.
+•	PowData: Contains theta band (4–8 Hz) activity recorded across electrode contacts in the hippocampus, middle-temporal gyrus, and prefrontal cortex for each participant.
+•	RippleData: Includes raw iEEG signals bandpass-filtered in the 70–180 Hz range across three brain regions for each participant.
+•	Fig1 – Fig4: Contain analysis results corresponding to each figure in the manuscript.
+4) Note on Experiment 2
+   Due to file size limitations, the data for Experiment 2 are not included in this repository. Please contact me directly if you require access to this portion of the data.
 
-3)  Data involves raw data and analyzed data.
-•	Folder ‘RawData’ contains data in three brains (hippocampus, prefrontal cortex, middle-temporal gyrus) after preprocessed from experiment 1.
-•	Folders ‘Fig1’ to ‘Fig4’ contain all results corresponding to four figures in the paper,
-
-For further information, please contact: wangbenchi.swift@gmail.com
+For further information, please contact: zhangyuanyuan_zoe@163.com
 
 
